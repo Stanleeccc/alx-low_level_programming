@@ -13,7 +13,7 @@ int man(void)
 	int n;
 
 	srand(time(0));
-	m = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
 	if ((n % 10) > 5)
 	{
