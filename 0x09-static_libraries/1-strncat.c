@@ -5,12 +5,12 @@
  * using at most n bytes from src
  * @dest: represents value inputed
  * @src: represents value inputed
- * @a: represents value inputed
+ * @n: represents value inputed
  *
  * Return: dest
  */
 
-char *_strncat(char *dest, char *src, int a)
+char *_strncat(char *dest, char *src, int n)
 {
 	int a;
 	int b;
@@ -21,7 +21,7 @@ char *_strncat(char *dest, char *src, int a)
 		a++;
 	}
 	b = 0;
-	while (b < a && src[b] != '\0')
+	while (b < n && src[b] != '\0')
 	{
 		dest[a] = src[b];
 		a++;
