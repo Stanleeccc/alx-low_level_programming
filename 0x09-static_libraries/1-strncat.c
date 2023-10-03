@@ -5,12 +5,12 @@
  * using at most n bytes from src
  * @dest: represents value inputed
  * @src: represents value inputed
- * @n: represents value inputed
+ * @a: represents value inputed
  *
  * Return: dest
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int a)
 {
 	int a;
 	int b;
