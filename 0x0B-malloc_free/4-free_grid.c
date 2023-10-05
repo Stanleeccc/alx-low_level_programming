@@ -6,7 +6,7 @@
  * free_grid - a function that frees a 2 dimensional grid
  * @grid: represents the 2 dimensional grid
  * @height: represents the height dimension of the grid
- * @description: represents the free memory of the grid
+ * @Description: represents the free memory of the grid
  * Return: nothing
  *
  */
